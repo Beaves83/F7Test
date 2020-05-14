@@ -36,7 +36,6 @@
   <!-- Your main view, should have "view-main" class -->
   <f7-view main class="safe-areas" url="/"></f7-view>
 
-
     <!-- Popup -->
     <f7-popup id="my-popup">
       <f7-view>
