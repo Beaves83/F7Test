@@ -1,11 +1,13 @@
 <template>
   <f7-app :params="f7params" >
 
+
+
   <!-- Left panel with cover effect when hidden -->
-  <f7-panel left cover theme-dark :visible-breakpoint="960">
+  <f7-panel left cover theme-auto :visible-breakpoint="960">
     <f7-view>
       <f7-page>
-        <f7-navbar title="Left Panel"></f7-navbar>
+        <!-- <f7-navbar title="Left Panel"></f7-navbar>
         <f7-block-title>Left View Navigation</f7-block-title>
         <f7-list>
           <f7-list-item link="/left-page-1/" title="Left Page 1"></f7-list-item>
@@ -16,6 +18,15 @@
           <f7-list-item link="/about/" view=".view-main" panel-close title="About"></f7-list-item>
           <f7-list-item link="/form/" view=".view-main" panel-close title="Form"></f7-list-item>
           <f7-list-item link="#" view=".view-main" back panel-close title="Back in history"></f7-list-item>
+        </f7-list> -->
+        <!-- <f7-block-title>Nueva botonera</f7-block-title> -->
+        <f7-list>
+          <f7-list-item icon-f7="home" link="/about/" view=".view-main" panel-close title=""><i class="f7-icons">ant_circle_fill</i></f7-list-item>
+          <f7-list-item link="/form/" view=".view-main" panel-close title=""><i class="f7-icons">house_fill</i></f7-list-item>
+          <f7-list-item  link="#" view=".view-main" back panel-close title=""><i class="f7-icons">leaf_arrow_circlepath</i></f7-list-item>
+          <f7-list-item  link="#" view=".view-main" back panel-close title=""><i class="f7-icons">light_max</i></f7-list-item>
+          <f7-list-item  link="#" view=".view-main" back panel-close title=""><i class="f7-icons">logo_apple</i></f7-list-item>
+          <f7-list-item  link="#" view=".view-main" back panel-close title=""><i class="f7-icons">ant_circle_fill</i></f7-list-item>
         </f7-list>
       </f7-page>
     </f7-view>
@@ -23,14 +34,14 @@
 
 
   <!-- Right panel with reveal effect-->
-  <f7-panel right reveal theme-dark>
+  <!-- <f7-panel right reveal theme-dark>
     <f7-view>
       <f7-page>
         <f7-navbar title="Right Panel"></f7-navbar>
         <f7-block>Right panel content goes here</f7-block>
       </f7-page>
     </f7-view>
-  </f7-panel>
+  </f7-panel> -->
 
 
   <!-- Your main view, should have "view-main" class -->
@@ -94,7 +105,8 @@
         f7params: {
           name: 'BibiTestF7', // App name
           theme: 'auto', // Automatic theme detection
-
+          titulo: 'titulo desde app vue',
+          listado: ['elemento1','elemento2','elemento3','elemento4'],
 
 
           // App routes

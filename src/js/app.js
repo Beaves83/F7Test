@@ -16,6 +16,7 @@ import '../css/app.scss';
 
 // Import App Component
 import App from '../components/app.vue';
+// import TestOne from '../components/TestOne.vue';
 
 // Init Framework7-Vue Plugin
 Framework7.use(Framework7Vue);
@@ -29,4 +30,11 @@ new Vue({
   components: {
     app: App
   },
+  // data: {
+  //   titulo: 'titulo desde app vue',
+  //   listado: ['elemento1','elemento2','elemento3','elemento4']
+  // }
 });
+
+//Init other components
+// Vue.component('app-testone', TestOne);
