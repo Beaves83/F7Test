@@ -1,7 +1,7 @@
 <template>
   <f7-page name="home">
     <!-- Top Navbar -->
-    <f7-navbar large :sliding="false">
+    <f7-navbar large :sliding="false" >
       <f7-nav-left>
         <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="left"></f7-link>
       </f7-nav-left>
@@ -25,7 +25,7 @@
     <!-- Page content-->
     <!-- <f7-block-title>Importación de fichero Vue</f7-block-title> -->
 
-    <f7-block-title>Bibi Component</f7-block-title>
+    <!-- <f7-block-title>Bibi Component</f7-block-title> -->
     <div class="row">
       <div class="col-50">
         <f7-card class="demo-facebook-card">
@@ -42,7 +42,7 @@
           </f7-card-header>
           <f7-card-content :padding="false">
             <img
-              src="https://lh3.googleusercontent.com/proxy/R5IgoDWW1XBqka-vs5kVwq79QxkB9LXnD-yMgffOjgSG-XfHz3HN1fQIOBOO2JPYKN6oPaUHuxmOa_772ocuzr1603St_sJ_67rIkiVsnA2h8mGmpCKLFaBVA_eFW40Ei2O_goH5"
+              src="https://pbs.twimg.com/media/DqGWaZNXgAAaHk_.jpg"
               width="100%"
             />
           </f7-card-content>
@@ -72,6 +72,64 @@
           <f7-card-content :padding="false">
             <img
               src="https://www.elpcytu.com/wp-content/uploads/2019/04/Big-Data-para-directivos-una-nueva-ventaja-competitiva.jpg"
+              width="100%"
+            />
+          </f7-card-content>
+          <f7-card-footer class="no-border">
+            <f7-link>Like</f7-link>
+            <f7-link>Comment</f7-link>
+            <f7-link>Share</f7-link>
+            <!-- <f7-list>
+              <f7-list-item title></f7-list-item>
+            </f7-list> -->
+          </f7-card-footer>
+        </f7-card>
+      </div>
+      <div class="col-50">
+        <f7-card class="demo-facebook-card">
+          <f7-card-header class="no-border">
+            <div class="demo-facebook-avatar">
+              <img
+                src="https://png.vector.me/files/images/7/2/721045/human_face_vector_30.jpg"
+                width="34"
+                height="34"
+              />
+            </div>
+            <div class="demo-facebook-name">Hispatec Analytics</div>
+            <div class="demo-facebook-date">Monday at 3:47 PM</div>
+          </f7-card-header>
+          <f7-card-content :padding="false">
+            <img
+              src="https://www.elpcytu.com/wp-content/uploads/2019/04/Big-Data-para-directivos-una-nueva-ventaja-competitiva.jpg"
+              width="100%"
+            />
+          </f7-card-content>
+          <f7-card-footer class="no-border">
+            <f7-link>Like</f7-link>
+            <f7-link>Comment</f7-link>
+            <f7-link>Share</f7-link>
+            <!-- <f7-list>
+              <f7-list-item title></f7-list-item>
+            </f7-list> -->
+          </f7-card-footer>
+        </f7-card>
+      </div>
+       <div class="col-50">
+        <f7-card class="demo-facebook-card">
+          <f7-card-header class="no-border">
+            <div class="demo-facebook-avatar">
+              <img
+                src="https://image.freepik.com/vector-gratis/angry-malo-infeccion-coronavirus-micro-bacterias_92289-657.jpg"
+                width="34"
+                height="34"
+              />
+            </div>
+            <div class="demo-facebook-name">Hispatec Analytics</div>
+            <div class="demo-facebook-date">Monday at 3:47 PM</div>
+          </f7-card-header>
+          <f7-card-content :padding="false">
+            <img
+              src="https://pbs.twimg.com/media/DqGWaZNXgAAaHk_.jpg"
               width="100%"
             />
           </f7-card-content>
@@ -125,13 +183,13 @@
       </f7-row>
     </f7-block> -->
 
-    <f7-list>
+    <!-- <f7-list>
       <f7-list-item
         title="Dynamic (Component) Route"
         link="/dynamic-route/blog/45/post/125/?foo=bar#about"
       ></f7-list-item>
       <f7-list-item title="Default Route (404)" link="/load-something-that-doesnt-exist/"></f7-list-item>
       <f7-list-item title="Request Data & Load" link="/request-and-load/user/123456/"></f7-list-item>
-    </f7-list>
+    </f7-list> -->
   </f7-page>
 </template>
