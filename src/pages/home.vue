@@ -1,150 +1,24 @@
 <template>
   <f7-page name="home">
-    <!-- Top Navbar -->
-    <f7-navbar large :sliding="false" >
-      <f7-nav-left>
-        <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="left"></f7-link>
-      </f7-nav-left>
-      <f7-nav-title sliding>BibiTestF7</f7-nav-title>
-      
-      <!-- <f7-nav-right>
-        <f7-link
-          icon-ios="f7:menu"
-          icon-aurora="f7:menu"
-          icon-md="material:menu"
-          panel-open="right"
-        ></f7-link>
-      </f7-nav-right> -->
-      <f7-nav-title-large>Framework 7 + VUE</f7-nav-title-large>
-    </f7-navbar>
-    <!-- Toolbar-->
-    <!-- <f7-toolbar bottom>
-      <f7-link>Left Link</f7-link>
-      <f7-link>Right Link</f7-link>
-    </f7-toolbar> -->
-    <!-- Page content-->
-    <!-- <f7-block-title>Importación de fichero Vue</f7-block-title> -->
+    <f7-list>
+      <f7-list-button title="List Button 1"></f7-list-button>
+      <f7-list-button title="List Button 2"></f7-list-button>
+      <f7-list-button title="List Button 3"></f7-list-button>
+    </f7-list>
 
-    <!-- <f7-block-title>Bibi Component</f7-block-title> -->
-    <div class="row">
-      <div class="col-50">
-        <f7-card class="demo-facebook-card">
-          <f7-card-header class="no-border">
-            <div class="demo-facebook-avatar">
-              <img
-                src="https://image.freepik.com/vector-gratis/angry-malo-infeccion-coronavirus-micro-bacterias_92289-657.jpg"
-                width="34"
-                height="34"
-              />
-            </div>
-            <div class="demo-facebook-name">Hispatec Analytics</div>
-            <div class="demo-facebook-date">Monday at 3:47 PM</div>
-          </f7-card-header>
-          <f7-card-content :padding="false">
-            <img
-              src="https://pbs.twimg.com/media/DqGWaZNXgAAaHk_.jpg"
-              width="100%"
-            />
-          </f7-card-content>
-          <f7-card-footer class="no-border">
-            <f7-link>Like</f7-link>
-            <f7-link>Comment</f7-link>
-            <f7-link>Share</f7-link>
-            <!-- <f7-list>
-              <f7-list-item title></f7-list-item>
-            </f7-list> -->
-          </f7-card-footer>
-        </f7-card>
-      </div>
-      <div class="col-50">
-        <f7-card class="demo-facebook-card">
-          <f7-card-header class="no-border">
-            <div class="demo-facebook-avatar">
-              <img
-                src="https://png.vector.me/files/images/7/2/721045/human_face_vector_30.jpg"
-                width="34"
-                height="34"
-              />
-            </div>
-            <div class="demo-facebook-name">Hispatec Analytics</div>
-            <div class="demo-facebook-date">Monday at 3:47 PM</div>
-          </f7-card-header>
-          <f7-card-content :padding="false">
-            <img
-              src="https://www.elpcytu.com/wp-content/uploads/2019/04/Big-Data-para-directivos-una-nueva-ventaja-competitiva.jpg"
-              width="100%"
-            />
-          </f7-card-content>
-          <f7-card-footer class="no-border">
-            <f7-link>Like</f7-link>
-            <f7-link>Comment</f7-link>
-            <f7-link>Share</f7-link>
-            <!-- <f7-list>
-              <f7-list-item title></f7-list-item>
-            </f7-list> -->
-          </f7-card-footer>
-        </f7-card>
-      </div>
-      <div class="col-50">
-        <f7-card class="demo-facebook-card">
-          <f7-card-header class="no-border">
-            <div class="demo-facebook-avatar">
-              <img
-                src="https://png.vector.me/files/images/7/2/721045/human_face_vector_30.jpg"
-                width="34"
-                height="34"
-              />
-            </div>
-            <div class="demo-facebook-name">Hispatec Analytics</div>
-            <div class="demo-facebook-date">Monday at 3:47 PM</div>
-          </f7-card-header>
-          <f7-card-content :padding="false">
-            <img
-              src="https://www.elpcytu.com/wp-content/uploads/2019/04/Big-Data-para-directivos-una-nueva-ventaja-competitiva.jpg"
-              width="100%"
-            />
-          </f7-card-content>
-          <f7-card-footer class="no-border">
-            <f7-link>Like</f7-link>
-            <f7-link>Comment</f7-link>
-            <f7-link>Share</f7-link>
-            <!-- <f7-list>
-              <f7-list-item title></f7-list-item>
-            </f7-list> -->
-          </f7-card-footer>
-        </f7-card>
-      </div>
-       <div class="col-50">
-        <f7-card class="demo-facebook-card">
-          <f7-card-header class="no-border">
-            <div class="demo-facebook-avatar">
-              <img
-                src="https://image.freepik.com/vector-gratis/angry-malo-infeccion-coronavirus-micro-bacterias_92289-657.jpg"
-                width="34"
-                height="34"
-              />
-            </div>
-            <div class="demo-facebook-name">Hispatec Analytics</div>
-            <div class="demo-facebook-date">Monday at 3:47 PM</div>
-          </f7-card-header>
-          <f7-card-content :padding="false">
-            <img
-              src="https://pbs.twimg.com/media/DqGWaZNXgAAaHk_.jpg"
-              width="100%"
-            />
-          </f7-card-content>
-          <f7-card-footer class="no-border">
-            <f7-link>Like</f7-link>
-            <f7-link>Comment</f7-link>
-            <f7-link>Share</f7-link>
-            <!-- <f7-list>
-              <f7-list-item title></f7-list-item>
-            </f7-list> -->
-          </f7-card-footer>
-        </f7-card>
-      </div>
-    </div>
+    <f7-list inset>
+      <f7-list-button title="List Button 1"></f7-list-button>
+      <f7-list-button title="List Button 2"></f7-list-button>
+      <f7-list-button title="List Button 3"></f7-list-button>
+    </f7-list>
 
+    <f7-list inset>
+      <f7-list-button title="Red List Button" color="red"></f7-list-button>
+      <f7-list-button title="Green List Button" color="green"></f7-list-button>
+      <f7-list-button title="Orange List Button" color="orange"></f7-list-button>
+    </f7-list>
+
+   
 
     <!-- <f7-block strong>
       <p>This is an example of split view application layout, commonly used on tablets. The main approach of such kind of layout is that you can see different views at the same time.</p>
@@ -181,7 +55,7 @@
           <f7-button fill raised panel-open="right">Right Panel</f7-button>
         </f7-col>
       </f7-row>
-    </f7-block> -->
+    </f7-block>-->
 
     <!-- <f7-list>
       <f7-list-item
@@ -190,6 +64,6 @@
       ></f7-list-item>
       <f7-list-item title="Default Route (404)" link="/load-something-that-doesnt-exist/"></f7-list-item>
       <f7-list-item title="Request Data & Load" link="/request-and-load/user/123456/"></f7-list-item>
-    </f7-list> -->
+    </f7-list>-->
   </f7-page>
 </template>

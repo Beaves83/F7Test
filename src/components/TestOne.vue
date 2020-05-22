@@ -44,6 +44,8 @@
         <f7-link>Share</f7-link>
       </f7-card-footer>
     </f7-card>
+
+    
   </div>
 </template>
 
