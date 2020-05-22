@@ -1,0 +1,8 @@
+[
+    { "url": "/", "image": "https://image.flaticon.com/icons/svg/2943/2943218.svg", "name": "enlace1" },
+    { "url": "/borderland/", "image": "https://banner2.cleanpng.com/20180410/zje/kisspng-borderlands-2-borderlands-3-tales-from-the-borderl-alphabet-collection-5acd7b9d83f218.3032657615234159655405.jpg", "name": "enlace2" },
+    { "url": "/darkvader/", "image": "https://cdn.icon-icons.com/icons2/1070/PNG/512/darth-vader_icon-icons.com_76959.png", "name": "enlace3" },
+    { "url": "/skyrim/", "image": "https://i.ya-webdesign.com/images/skyrim-icon-png-8.png", "name": "enlace4" },
+    { "url": "/mario/", "image": "https://image.flaticon.com/icons/svg/528/528111.svg", "name": "enlace5" },
+    { "url": "/mac/", "image": "https://image.flaticon.com/icons/svg/743/743958.svg", "name": "enlace6" }
+]

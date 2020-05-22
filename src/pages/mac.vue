@@ -1,15 +1,15 @@
 <template>
-  <f7-page name="home">
+  <f7-page name="mac">
     <f7-block>
       <div class="image">
         <img
-          src="https://image.flaticon.com/icons/svg/2943/2943218.svg"
+          src="https://image.flaticon.com/icons/svg/743/743958.svg"
           width="300"
         />
       </div>
     </f7-block>
 
-    <f7-block-title>Home</f7-block-title>
+    <f7-block-title>Mac</f7-block-title>
     <f7-block strong>
       <p>Fugiat perspiciatis excepturi, soluta quod non ullam deleniti. Nobis sint nemo consequuntur, fugiat. Eius perferendis animi autem incidunt vel quod tenetur nostrum, voluptate omnis quasi quidem illum consequuntur, a, quisquam.</p>
       <p>Laudantium neque magnam vitae nemo quam commodi, in cum dolore obcaecati laborum, excepturi harum, optio qui, consequuntur? Obcaecati dolor sequi nesciunt culpa quia perspiciatis, reiciendis ex debitis, ut tenetur alias.</p>

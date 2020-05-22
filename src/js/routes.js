@@ -9,6 +9,12 @@ import DynamicRoutePage from '../pages/dynamic-route.vue';
 import RequestAndLoad from '../pages/request-and-load.vue';
 import NotFoundPage from '../pages/404.vue';
 
+import Borderland from '../pages/borderland.vue';
+import DarkVader from '../pages/darkvader.vue';
+import Skyrim from '../pages/skyrim.vue';
+import Mario from '../pages/mario.vue';
+import Mac from '../pages/mac.vue';
+
 var routes = [
   {
     path: '/',
@@ -34,6 +40,27 @@ var routes = [
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
     component: DynamicRoutePage,
+  },
+  //Nuevas rutas
+  {
+    path: '/borderland/',
+    component: Borderland,
+  },
+  {
+    path: '/darkvader/',
+    component: DarkVader,
+  },
+  {
+    path: '/skyrim/',
+    component: Skyrim,
+  },
+  {
+    path: '/mario/',
+    component: Mario,
+  },
+  {
+    path: '/mac/',
+    component: Mac,
   },
   {
     path: '/request-and-load/user/:userId/',
