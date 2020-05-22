@@ -1,7 +1,6 @@
 <template>
   <f7-app :params="f7params" >
 
-
   <navBar />
   <leftPanel :version=version :imageSize= imageSize :opcionesMenu= opcionesMenu  />
 
