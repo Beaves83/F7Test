@@ -24,7 +24,7 @@
     data() {
     
       const version = "v 0.10";
-      const imageSize = "60";
+      const imageSize = "50";
       return {
         version,
         imageSize,
