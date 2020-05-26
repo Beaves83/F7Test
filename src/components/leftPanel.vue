@@ -1,16 +1,10 @@
 <template>
-  <f7-panel left cover theme-auto :visible-breakpoint="960">
-    <f7-list>       
-        <f7-list-item
-            v-for="(item, index) in opcionesMenu"
-            :key="index"                   
-            :link="item.url">
-            <img slot="media" :src="item.image" :width="50"/>
-            <!-- <f7-icon material="inbox"
-            size="45px"
-            ></f7-icon> -->
-            <a>{{item.name}}</a>   
-        </f7-list-item>
+  <f7-panel left reveal theme-auto>
+    <f7-list>
+      <f7-list-item v-for="(item, index) in opcionesMenu" :key="index" :link="item.url">
+        <f7-icon icon="icon-add" v-bind:style="{ 'background-image': 'url(' + item.image + ')' }" />
+        <a>{{item.name}}</a>
+      </f7-list-item>
     </f7-list>
   </f7-panel>
 </template>
@@ -20,3 +14,10 @@ export default {
   props: ["opcionesMenu"]
 };
 </script>
+
+<style lang="scss">
+.icon-add {
+  width: 30px;
+  height: 30px;
+}
+</style>
