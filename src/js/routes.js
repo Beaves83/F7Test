@@ -15,6 +15,8 @@ import Skyrim from '../pages/skyrim.vue';
 import Mario from '../pages/mario.vue';
 import Mac from '../pages/mac.vue';
 
+import Login from '../pages/login.vue';
+
 var routes = [
   {
     path: '/',
@@ -61,6 +63,10 @@ var routes = [
   {
     path: '/mac/',
     component: Mac,
+  },
+   {
+    path: '/login/',
+    component: Login,
   },
   {
     path: '/request-and-load/user/:userId/',

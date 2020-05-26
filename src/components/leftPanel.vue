@@ -1,9 +1,9 @@
 <template>
-  <f7-panel left reveal theme-auto>
+  <f7-panel left parallax theme-auto>
     <f7-list>
       <f7-list-item v-for="(item, index) in opcionesMenu" :key="index" :link="item.url">
         <f7-icon
-          icon="icon-add"
+          icon="icon-menu"
           v-bind:style="{ 'background-image': 'url(' + item.image + ')' }"
           :link="item.url"
         />
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss">
-.icon-add {
+.icon-menu {
   width: 30px;
   height: 30px;
 }
