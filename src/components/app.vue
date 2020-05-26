@@ -2,7 +2,7 @@
   <f7-app :params="f7params" >
 
   <navBar />
-  <leftPanel :version=version :imageSize= imageSize :opcionesMenu= opcionesMenu  />
+  <leftPanel :opcionesMenu= opcionesMenu />
 
   <!-- Your main view, should have "view-main" class -->
   <f7-view main class="safe-areas" url="/"></f7-view>
