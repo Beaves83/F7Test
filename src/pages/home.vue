@@ -1,14 +1,11 @@
 <template>
   <f7-page name="home">
+    <navBar />
     <f7-block>
       <div class="image">
-        <img
-          src="https://image.flaticon.com/icons/svg/2943/2943218.svg"
-          width="300"
-        />
+        <img src="https://image.flaticon.com/icons/svg/2943/2943218.svg" width="300" />
       </div>
     </f7-block>
-
     <f7-block-title>Home</f7-block-title>
     <f7-block strong>
       <p>Fugiat perspiciatis excepturi, soluta quod non ullam deleniti. Nobis sint nemo consequuntur, fugiat. Eius perferendis animi autem incidunt vel quod tenetur nostrum, voluptate omnis quasi quidem illum consequuntur, a, quisquam.</p>
@@ -19,7 +16,20 @@
       <p>Molestias et distinctio porro nesciunt ratione similique, magni doloribus, rerum nobis, aliquam quae reiciendis quasi modi. Nam a recusandae, fugiat in ea voluptates fuga eius, velit corrupti reprehenderit dignissimos consequatur!</p>
       <p>Blanditiis, cumque quo adipisci. Molestiae, dolores dolorum quos doloremque ipsa ullam eligendi commodi deserunt doloribus inventore magni? Ea mollitia veniam nostrum nihil, iusto doloribus a at! Ea molestiae ullam delectus!</p>
     </f7-block>
-    
   </f7-page>
-  
 </template>
+
+<script>
+import navBar from "../components/navBar";
+
+export default {
+  components: {
+    navBar
+  },
+  data() {
+    return {
+      navBar
+    };
+  }
+};
+</script>

@@ -1,3 +1,13 @@
+
+$base-color: black;
+
+:root {
+  --f7-theme-color:  #{$base-color};
+  --f7-theme-color-shade: darken(#{$base-color}, 20);
+  --f7-theme-color-tint: lighten(#{$base-color},10);
+  --f7-theme-color-rgb: 255, 0, 0;
+}
+
 /* Left Panel right border when it is visible by breakpoint */
 .panel-left.panel-in-breakpoint:before {
   position: absolute;

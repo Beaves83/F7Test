@@ -1,5 +1,6 @@
 <template>
   <f7-page name="borderland">
+    <navBar />
     <f7-block>
       <div class="image">
         <img
@@ -29,3 +30,18 @@
         justify-content: center;
     }
 </style>
+
+<script>
+import navBar from "../components/navBar";
+
+export default {
+  components: {
+    navBar
+  },
+  data() {
+    return {
+      navBar
+    };
+  }
+};
+</script>

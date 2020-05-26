@@ -1,5 +1,6 @@
 <template>
   <f7-page name="mario">
+    <navBar />
     <f7-block>
       <div class="image">
         <img
@@ -21,3 +22,18 @@
     </f7-block>
   </f7-page>
 </template>
+
+<script>
+import navBar from "../components/navBar";
+
+export default {
+  components: {
+    navBar
+  },
+  data() {
+    return {
+      navBar
+    };
+  }
+};
+</script>

@@ -1,7 +1,6 @@
 <template>
   <f7-app :params="f7params" >
 
-  <navBar />
   <leftPanel :opcionesMenu= opcionesMenu />
 
   <!-- Your main view, should have "view-main" class -->
@@ -12,22 +11,17 @@
 <script>
 
   import routes from '../js/routes.js';
-  import navBar from '../components/navBar'
   import leftPanel from '../components/leftPanel'
   import opcionesMenu from '../json/menuList.json'
 
   export default {
     components:{
-        'navBar': navBar,
-        'leftPanel': leftPanel,
+        opcionesMenu,
+        leftPanel,
       },
     data() {
     
-      const version = "v 0.10";
-      const imageSize = "50";
       return {
-        version,
-        imageSize,
         opcionesMenu,
         // Framework7 Parameters
         f7params: {
