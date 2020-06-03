@@ -1,5 +1,5 @@
 <template>
-  <f7-panel left parallax theme-auto>
+  <f7-panel left parallax>
     <f7-list>
       <f7-list-item v-for="(item, index) in opcionesMenu" :key="index" :link="item.url">
         <f7-icon

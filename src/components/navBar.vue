@@ -1,5 +1,5 @@
 <template>
-  <f7-navbar :sliding="false" medium>
+  <f7-navbar :sliding="false">
     <f7-nav-left>
       <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="left"></f7-link> 
     </f7-nav-left>
